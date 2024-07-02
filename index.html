@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indonesian Tourism</title>
+    <link rel="stylesheet" href="cssuas.css">
+    <script src="jsuas.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>PESONA INDONESIA</h1>
+            <nav>
+                <ul>
+                    <li><a href="#kebudayaan">Kebudayaan</a></li>
+                    <li><a href="#tempat-wisata">Tempat Wisata</a></li>
+                    <li><a href="#hotel">Hotel</a></li>
+                    <li><a href="#transaksi">Transaksi</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="kebudayaan">
+            <h2>Kebudayaan Indonesia</h2>
+            <div class="content">
+                <p>Indonesia dikenal dengan kekayaan budayanya yang meliputi tarian tradisional, upacara adat, dan tradisi yang unik. Berikut adalah beberapa aspek penting dari kebudayaan Indonesia:</p>
+                <div class="cards">
+                    <div class="card">
+                        <h3>Tari-Tarian Tradisional</h3>
+                        <p>Menampilkan keindahan gerakan dan musik tradisional yang bervariasi di seluruh Nusantara.</p>
+                        <ul>
+                            <li><strong>Tari Saman:</strong> Tari dari Aceh yang melibatkan banyak penari dengan gerakan cepat.</li>
+                            <li><strong>Tari Kecak:</strong> Tari dari Bali dengan suara khas yang melibatkan banyak penari.</li>
+                            <li><strong>Tari Pendet:</strong> Tari penyambutan dari Bali dengan gerakan lembut dan makna mendalam.</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Upacara Adat</h3>
+                        <p>Ritual dan upacara yang melibatkan aspek spiritual dan budaya lokal.</p>
+                        <ul>
+                            <li><strong>Ngaben:</strong> Upacara kremasi Bali yang melibatkan berbagai ritual dan dekorasi.</li>
+                            <li><strong>Rambu Solo':</strong> Upacara pemakaman Toraja dengan berbagai ritual kompleks.</li>
+                            <li><strong>Kasada:</strong> Upacara tahunan di Gunung Bromo dengan persembahan untuk dewa.</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Tradisi Unik</h3>
+                        <p>Berbagai tradisi dan kerajinan yang mencerminkan kekayaan budaya Indonesia.</p>
+                        <ul>
+                            <li><strong>Wayang Kulit:</strong> Teater bayangan tradisional dari Jawa.</li>
+                            <li><strong>Batik:</strong> Teknik pewarnaan kain yang khas dari Jawa dengan motif yang beragam.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tempat-wisata">
+            <h2>Tempat Wisata Terbaik di Indonesia</h2>
+            <div class="content">
+                <div class="cards">
+                    <div class="card">
+                        <h3>Bali</h3>
+                        <p>Destinasi utama untuk pantai, budaya, dan kehidupan malam yang memukau.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Raja Ampat</h3>
+                        <p>Surga bagi penyelam dengan keanekaragaman bawah laut yang spektakuler.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Yogyakarta</h3>
+                        <p>Kota budaya dengan candi-candi bersejarah dan kehidupan seni yang kaya.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="hotel">
+            <h2>Daftar Hotel Favorit</h2>
+            <div class="content">
+                <div class="cards">
+                    <div class="card">
+                        <h3>Hotel Pantai Indah</h3>
+                        <p><strong>Fasilitas:</strong> Kolam renang, Wi-Fi gratis, Spa, Restoran tepi pantai</p>
+                        <p><strong>Harga:</strong> Rp 1.500.000/malam</p>
+                        <p><strong>Alamat:</strong> Jalan Pantai No. 1, Bali</p>
+                        <p><strong>Informasi Lainnya:</strong> Tempat terbaik untuk menikmati sunset</p>
+                    </div>
+                    <div class="card">
+                        <h3>Hotel Gunung Emas</h3>
+                        <p><strong>Fasilitas:</strong> Wi-Fi gratis, Pemandian air panas, Restoran lokal</p>
+                        <p><strong>Harga:</strong> Rp 900.000/malam</p>
+                        <p><strong>Alamat:</strong> Jalan Emas No. 23, Yogyakarta</p>
+                        <p><strong>Informasi Lainnya:</strong> Dekat dengan candi Borobudur</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="transaksi">
+            <h2>Transaksi Pemesanan</h2>
+            <div class="content">
+                <form id="transaksi-form">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" name="nama" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="hotel">Pilih Hotel:</label>
+                    <select id="hotel" name="hotel">
+                        <option value="Hotel Pantai Indah">Hotel Pantai Indah</option>
+                        <option value="Hotel Gunung Emas">Hotel Gunung Emas</option>
+                    </select>
+                    <label for="checkin">Tanggal Check-in:</label>
+                    <input type="date" id="checkin" name="checkin" required>
+                    <label for="checkout">Tanggal Check-out:</label>
+                    <input type="date" id="checkout" name="checkout" required>
+                    <button type="submit">Pesan Sekarang</button>
+                </form>
+                <div id="confirmation"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p> Made by Muhammad Asrizal</p>
+    </footer>
+</body>
+</html>
